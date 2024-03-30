@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title> Registration </title>
+	<link rel="stylesheet" href="css/studentreg.css">
+</head>
+<body>
+	<form action="reg.html" method="POST">
+		<h1>Student Registration</h1>
+		<table>
+			<tr>
+				<td>Student Name</td>
+				<td>:</td>
+				<td><input type="text" name="studentName" placeholder="Student Name" required></td>
+		 	</tr>
+		 	<tr>
+			 	<td>Father Name</td>
+			 	<td>:</td>
+			 	<td><input type="text" name="fatherName" placeholder="Father Name" required></td>
+		 	</tr>
+		 	<tr>
+				<td>Mother Name</td>
+				<td>:</td>
+				<td><input type="text" name="motherName" placeholder="Mother Name" required></td>
+		 	</tr>
+		 	<tr>
+			 	<td>Date of Birth</td>
+			 	<td>:</td>
+			 	<td><input type="date" name="dob" required></td>
+		 	</tr>
+		 	<tr>
+				<td>Gender</td>
+				<td>:</td>
+				<td><input type="radio" name="gender" value="male">Male
+					<input type="radio" name="gender" value="female">Female</td>
+			</tr>
+			<tr>
+				<td>Address</td>
+				<td>:</td>
+				<td><textarea  name="address" rows="4" cols="20" required></textarea></td>
+			</tr>
+			<tr>
+				<td>Aadhaar Number</td>
+				<td>:</td>
+				<td><input type="text" name="aadhaar" placeholder="Enter Aadhaar Number" required></td>
+			</tr>
+			<tr>
+				<td>Phone</td>
+				<td>:</td>
+				<td><input type="text" name="phone" placeholder="Enter Phone" required></td>
+			</tr>
+			<tr>
+				<td>Present Studying</td>
+				<td>:</td>
+				<td><select name="year">
+					<option value="select">select...</option>
+					<option value="pg">PG</option>
+					<option value="B.Tech">B.Tech</option>
+					<option value="degree">Degree</option>
+					<option value="intermediate">Intermediate</option>
+					<option value="10thclass ">10th Class</option>
+					<option value="5th-9thclass">5th-9th Class</option>
+					<option value="1th-4thclass">1th-4th Class</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>Present year</td>
+				<td>:</td>
+				<td><input type="date"	 name="presentYear" required></td>
+			</tr>
+			<tr>
+				<td>Previous Education Result</td>
+				<td>:</td>
+				<td><input type="file" name="markList" required></td>
+			</tr>
+			<tr>
+				<td>Declaration</td>
+				<td>:</td>
+				<td style="font-weight:bold;"><input type="checkbox" name="declaration">I declare that I have read and filled the above information, so if the information given by me is incorrect, you have the right to cancel without informing me.</td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" value="SUMBIT"></td>
+				<td colspan="2"><input type="reset" value="RESET"></td>
+			</tr>
+		</table>
+ 	</form>
+</body>
+</html>

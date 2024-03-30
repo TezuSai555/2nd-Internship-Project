@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Donate Books</title>
+	<link rel="stylesheet" href="css/bookcss.css">
+</head>
+<body>
+	<div id="nav">
+		<img  id="img" src="images/logo1.png" alt="Education" align="left" height="60px" width="60px">
+		<i id="name">EDUCATION FACILITIES FOR POOR CHILDREN</i>
+		<a class="style" href="main.html">HOME</a>
+		<a class="style" href="loginform.html" target="_self">LOGIN</a>
+		<div class="dropdown">
+			<a class="style" href="#register">REGISTER</a>
+			<div class="dropdown-content">
+				<a href="studentregistration.html" target="_self">Student</a>
+				<a href="donationform.html" target="_self">Donator</a>
+			</div>
+		</div>
+		<a class="style" href="contact.html">CONTACT US</a>
+		<a class="style" href="aboutus.html">ABOUT US</a>
+		<a class="style" href="help.html">HELP</a>
+	</div>
+	<h1>Every Child Deserves to be a Book Owner</h1>
+	<h2>Books Between Kids is a non-profit organization serving Houston’s at-risk children by providing them with books to build their own home libraries.</h2>
+	<ul>
+		<li><dl>
+			<dt>Dr. A.P.J. Abdul Kalam Centre</dt>
+				<dd>Kalam Centre runs a network of free libraries across remote and low-income regions of India under the banner of Kalam Library. These libraries cater to the reading and learning needs of children in slums, government schools, low-cost private schools, and children</dd>
+		</dl></li>
+	</ul>
+	<form action="" method="POST">
+		<h1>Donate Now</h1>
+		<div class="block">
+			<table>
+				<tr>
+					<td>Name</td>
+					<td><input type="text" name="firstName" required><br>First Name</td>
+					<td><input type="text" name="lastName" required><br>Last Name</td>
+				</tr>
+				<tr>
+					<td>Location</td>
+					<td><input type="text" name="location" required>
+				</tr>
+				<tr>
+					<td>Date</td>
+					<td><input type="date" name="date" required></td>
+				</tr>
+				<tr>
+					<td>Donar Type</td>
+					<td>
+					<select name="donarType">
+						<option value="" name="donarType">Select ...</option>
+						<option value="Person" name="donarType">Person</option>
+						<option value="Organization" name="donarType">Organization</option>
+						<option value="Book Drive" name="donarType">Book Drive</option>
+						<option value="Business" name="donarType">Business</option>
+					</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Phone</td>
+					<td><input type="text" name="areaCode" required><br>Area Code</td>
+					<td><input type="text" name="phone" required><br>Phone Number</td>
+				</tr>
+				<tr>
+					<td>Address</td>
+					<td><textarea  name="address" rows="4" cols="20" required></textarea></td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td><input type="email" name="email" placeholder="example@gmail.com" required></td>
+				</tr>
+				<tr>
+					<td colspan="2"><input type="submit" value="SUBMIT">
+									<input type="reset" value="RESET"></td>
+				</tr>
+			</table>
+		</div>
+	</form>
+	<p>We have staff, they will collect the books from you in mention date at your address</p>
+</body>
+</html> 

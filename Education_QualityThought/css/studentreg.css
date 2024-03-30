@@ -1,0 +1,50 @@
+body
+{
+	font-family:Times New Roman;
+	display:flex;
+	justify-content:center;
+}
+h1
+{
+	text-align:center;
+	color:#330099;
+}
+input[type="text"],input[type="date"],input[type="file"],select
+{
+	width:250px;
+	height:30px;
+}
+input[type="submit"], input[type="reset"]
+{
+	width:80px;
+	height:30px;
+	position:relative;
+	left:180px;
+	background-color:blue;
+	color:white;
+	cursor:pointer;
+	margin-right:30px;
+}
+form
+{
+	text-align:center;
+	font-size:20px;
+	border:3px solid lime;
+	border-radius:10px;
+	width:800px;
+	margin:20px auto;
+	background-image:radial-gradient(#66cc66,yellow,green);
+}
+td
+{
+	padding:10px;
+}
+td:first-child
+{
+	text-align:right;
+	font-weight:bold;
+}
+td:last-child
+{
+	text-align:left;
+}

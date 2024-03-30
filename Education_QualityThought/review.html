@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Review</title>
+	<link rel="stylesheet" href="css/review.css">
+</head>
+<body>
+	<form action="" method="POST">
+		<h1>Review</h1>
+		<table>
+			<tr>
+				<td><label>First Name</label></td> 
+				<td><input type="text" name="firstName" placeholder="Your First name....." required></td>
+			</tr> 
+			<tr>
+				<td><label>Last  Name</label></td>
+				<td><input type="text" name="Lastname" placeholder="Your Last  name....." required></td>
+			</tr> 
+			<tr>
+				<td><label for="country">Country</label></td>
+				<td><select name="country">
+					<option value="select">select...</option>
+					<option value="australia">Australia</option>
+					<option value="canada">Canada</option>
+					<option value="usa">USA</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td><label>Subject</label></td>
+				<td><textarea name="subject" placeholder="Write something.." style="height:150px"  required></textarea></td>
+			</tr>
+			<tr> 
+				<td><label >Phone number</label></td> 
+				<td><input name="phoneNumber" type="text" placeholder="phone number" required></td>
+			</tr>
+			<tr> 
+				<td><label>Email Address</label></td>
+				<td><input name="emailAddress" type="email" placeholder=" Your Email" required></td>
+			</tr>
+			<tr> 
+				<td><label>Comments</label></td>
+				<td><textarea name="Comment" rows="7" cols="40" required></textarea></td> 
+			</tr> 
+			<tr>
+				<td><input type="submit" value="Submit"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
