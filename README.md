@@ -1,2 +1,3 @@
 # 2nd-Internship-Project
-HTML and CSS
+
+**HTML and CSS**
